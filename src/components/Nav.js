@@ -1,11 +1,26 @@
-import logo from "./logo.svg";
+import logo from "../icons_assets/Logo.svg";
+import "./Nav.css";
 
 export function Nav() {
   return (
     <>
-      <nav>
+      <nav
+        style={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "space-between",
+        }}
+      >
         <img width="120px" src={logo} alt="logo" />
-        <ul>
+        <ul
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            listStyle: "none",
+            padding: 0,
+            width: "50%",
+          }}
+        >
           <li>
             <a href="#home">Home</a>
           </li>

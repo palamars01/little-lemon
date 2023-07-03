@@ -1,7 +1,7 @@
 export function Header({ children }) {
   return (
     <>
-      <header>{children}</header>
+      <header style={{ display: "flex", padding: "8px" }}>{children}</header>
     </>
   );
 }
